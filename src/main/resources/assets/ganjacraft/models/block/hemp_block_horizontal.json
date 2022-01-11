@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "ganjacraft:block/hemp_block_top",
+    "side": "ganjacraft:block/hemp_block_side"
+  }
+}

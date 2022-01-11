@@ -1,0 +1,22 @@
+{
+  "group": "paper",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "1": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "2": {
+      "item": "ganjacraft:hemp_fiber_item"
+    }
+  },
+  "result": {
+    "item": "minecraft:paper",
+    "count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ganjacraft:blocks/indicastage3",
+    "particle": "ganjacraft:blocks/indicastage3"
+  }
+}

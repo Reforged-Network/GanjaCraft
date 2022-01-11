@@ -1,0 +1,36 @@
+{
+  "group": "hemplegs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "1": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "2": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "3": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "5": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "6": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "8": {
+      "item": "ganjacraft:hemp_fiber_item"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_outfit_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "title": {
+      "translate": "advancements.hemp_brick_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.hemp_brick_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hemp_brick_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "ganjacraft:hempbricksrecipe",
+      "ganjacraft:flower_pot_recipe",
+      "ganjacraft:hempbrickrecipe",
+      "ganjacraft:concrete_recipe",
+      "ganjacraft:orange_concrete_recipe",
+      "ganjacraft:magenta_concrete_recipe",
+      "ganjacraft:light_blue_concrete_recipe",
+      "ganjacraft:yellow_concrete_recipe",
+      "ganjacraft:lime_concrete_recipe",
+      "ganjacraft:pink_concrete_recipe",
+      "ganjacraft:gray_concrete_recipe",
+      "ganjacraft:light_gray_concrete_recipe",
+      "ganjacraft:cyan_concrete_recipe",
+      "ganjacraft:purple_concrete_recipe",
+      "ganjacraft:blue_concrete_recipe",
+      "ganjacraft:brown_concrete_recipe",
+      "ganjacraft:green_concrete_recipe",
+      "ganjacraft:red_concrete_recipe",
+      "ganjacraft:black_concrete_recipe",
+      "ganjacraft:hempcrete_powder_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_planks_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_stairs_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_slab_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_fence_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_fence_gate_recipe",
+      "ganjacraft:hemp_door_recipe",
+      "ganjacraft:hemp_trapdoor_recipe"
+    ]
+  },
+  "parent": "ganjacraft:weed_grower_advancement"
+}

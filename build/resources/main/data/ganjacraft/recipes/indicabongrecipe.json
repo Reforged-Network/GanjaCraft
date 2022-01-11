@@ -1,0 +1,22 @@
+{
+  "group": "packedbong",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ganjacraft:indica_bud"
+    },
+    {
+      "item": "ganjacraft:indica_bud"
+    },
+    {
+      "item": "ganjacraft:empty_bong"
+    },
+    {
+      "item": "ganjacraft:indica_bud"
+    }
+  ],
+  "result": {
+    "item": "ganjacraft:indica_bong",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "ganjacraft:block/cannabis_crop_lower_stage7"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "ganjacraft:block/sativa_stage0"
+    },
+    "age=1": {
+      "model": "ganjacraft:block/sativa_stage1"
+    },
+    "age=2": {
+      "model": "ganjacraft:block/sativa_stage2"
+    },
+    "age=3": {
+      "model": "ganjacraft:block/sativa_stage3"
+    },
+    "age=4": {
+      "model": "ganjacraft:block/sativa_stage4"
+    },
+    "age=5": {
+      "model": "ganjacraft:block/sativa_stage5"
+    },
+    "age=6": {
+      "model": "ganjacraft:block/sativa_stage6"
+    },
+    "age=7": {
+      "model": "ganjacraft:block/sativa_stage7"
+    }
+  }
+}

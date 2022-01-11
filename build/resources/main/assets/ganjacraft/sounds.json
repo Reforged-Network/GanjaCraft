@@ -1,0 +1,31 @@
+{
+  "smoking": {
+    "category": "players",
+    "subtitle": "ganjacraft.smoking",
+    "sounds": [
+      "ganjacraft:smoking"
+    ]
+  },
+  "bonghit": {
+    "category": "players",
+    "subtitle": "ganjacraft.bonghit",
+    "sounds": [
+      "ganjacraft:bonghit"
+    ]
+  },
+  "coughing": {
+    "category": "players",
+    "subtitle": "ganjacraft.coughing",
+    "sounds": [
+      "ganjacraft:coughing"
+    ]
+  },
+  "disc_afroman": {
+    "sounds": [
+      {
+        "name": "ganjacraft:disc_afroman",
+        "stream": true
+      }
+    ]
+  }
+}

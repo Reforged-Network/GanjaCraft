@@ -1,0 +1,26 @@
+{
+  "group": "hempbricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_brick"
+    },
+    "1": {
+      "item": "ganjacraft:hemp_brick"
+    },
+    "2": {
+      "item": "ganjacraft:hemp_brick"
+    },
+    "3": {
+      "item": "ganjacraft:hemp_brick"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_bricks",
+    "count": 1
+  }
+}

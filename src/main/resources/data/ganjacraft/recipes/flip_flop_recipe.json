@@ -1,0 +1,26 @@
+{
+  "group": "hempflipflop",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "2": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "3": {
+      "item": "ganjacraft:hemp_fiber_item"
+    },
+    "5": {
+      "item": "ganjacraft:hemp_fiber_item"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_outfit_boots",
+    "count": 1
+  }
+}
