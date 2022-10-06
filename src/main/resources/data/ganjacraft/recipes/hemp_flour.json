@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_stem"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_flour",
+    "count": 1
+  }
+}

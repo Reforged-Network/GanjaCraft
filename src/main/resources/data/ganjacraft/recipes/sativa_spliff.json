@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "11 "
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:dried_sativa_bud"
+    },
+    "1": {
+      "item": "ganjacraft:rolling_paper"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:sativa_spliff",
+    "count": 1
+  }
+}

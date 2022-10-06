@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "ganjacraft:block/sativa_crop_upper_stage6"
+  }
+}

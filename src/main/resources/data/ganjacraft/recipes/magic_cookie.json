@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#M#",
+    "CHC",
+    "FFF"
+  ],
+  "key": {
+    "#": {
+      "item": "ganjacraft:cannabutter"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "H": {
+      "item": "minecraft:honey_bottle"
+    },
+    "F": {
+      "item": "ganjacraft:hemp_flour"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:magic_cookie",
+    "count": 2
+  }
+}

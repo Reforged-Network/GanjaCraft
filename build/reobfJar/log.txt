@@ -1,7 +1,8 @@
 Java Launcher: C:\Program Files\Java\jdk1.8.0_212\bin\java.exe
 Arguments: '--in-jar, C:\Users\Josh\Desktop\GanjaCraft\build\libs\ganjacraft-1.16.5-1.0.0.jar, --out-jar, C:\Users\Josh\Desktop\GanjaCraft\build\reobfJar\output.jar, --srg-in, C:\Users\Josh\Desktop\GanjaCraft\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
- - C:\Users\Josh\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.10.0\SpecialSource-1.10.0-shaded.jar
+ - C:\Users\Josh\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
+ - C:\Users\Josh\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.16.5\7.7.1.152_mapped_snapshot_20210309-1.16.5\jei-1.16.5-7.7.1.152_mapped_snapshot_20210309-1.16.5-api.jar
  - C:\Users\Josh\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.2.20_mapped_snapshot_20210309-1.16.5\forge-1.16.5-36.2.20_mapped_snapshot_20210309-1.16.5-recomp.jar
  - C:\Users\Josh\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.2.20_mapped_snapshot_20210309-1.16.5\forge-1.16.5-36.2.20_mapped_snapshot_20210309-1.16.5-launcher.jar
  - C:\Users\Josh\.gradle\caches\forge_gradle\minecraft_repo\versions\1.16.5\client-extra.jar

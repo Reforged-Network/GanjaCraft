@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "2": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "3": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "4": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "5": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "6": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "7": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "8": {
+      "item": "ganjacraft:hemp_fiber"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_shirt",
+    "count": 1
+  }
+}

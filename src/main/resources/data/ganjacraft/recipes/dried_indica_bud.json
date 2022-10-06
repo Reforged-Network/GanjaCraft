@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "ganjacraft:indica_bud"
+  },
+  "result": "ganjacraft:dried_indica_bud",
+  "experience": 1,
+  "cookingtime": 200
+}

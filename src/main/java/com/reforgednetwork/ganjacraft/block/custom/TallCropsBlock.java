@@ -20,10 +20,6 @@ import net.minecraft.world.IWorldReader;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
-/**
- * Special one-off class for tall crops.
- * Created to handle crops which grow upwards beyond a single block.
- */
 public class TallCropsBlock extends VanillaCropsBlock {
 	public static final EnumProperty<DoubleBlockHalf> HALF = BlockStateProperties.DOUBLE_BLOCK_HALF;
 	private static final VoxelShape[] SHAPE_BY_AGE_LOWER = new VoxelShape[] {
@@ -49,10 +45,6 @@ public class TallCropsBlock extends VanillaCropsBlock {
 		super(seedsIn);
 		this.setDefaultState(this.stateContainer.getBaseState().with(HALF, DoubleBlockHalf.LOWER).with(AGE, 0));
 	}
-
-	/*
-	 * Minecraft Methods
-	 */
 
 	@Override
 	public boolean isValidPosition(BlockState stateIn, IWorldReader worldIn, BlockPos posIn) {

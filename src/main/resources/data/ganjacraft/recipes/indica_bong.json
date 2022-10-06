@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "ganjacraft:dried_indica_bud"
+    },
+    "B": {
+      "item": "ganjacraft:empty_bong"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:indica_bong",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint"
+    },
+    "1": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "2": {
+      "item": "minecraft:flint"
+    },
+    "3": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "4": {
+      "tag": "minecraft:coals"
+    },
+    "5": {
+      "item": "ganjacraft:hemp_fiber"
+    },
+    "6": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "7": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "8": {
+      "item": "ganjacraft:hempcrete"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:lighter",
+    "count": 1
+  }
+}

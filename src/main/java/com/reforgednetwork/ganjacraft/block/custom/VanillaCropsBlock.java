@@ -17,10 +17,6 @@ public class VanillaCropsBlock extends CropsBlock {
 		seeds = seedsIn;
 	}
 
-	/*
-	 * Minecraft Methods
-	 */
-
 	@Override
 	protected IItemProvider getSeedsItem() {
 		return seeds.get();

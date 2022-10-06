@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "BAB",
+    "HHH"
+  ],
+  "key": {
+    "#": {
+      "item": "ganjacraft:cannabutter"
+    },
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "B": {
+      "item": "ganjacraft:dried_indica_bud"
+    },
+    "H": {
+      "item": "ganjacraft:hemp_flour"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:golden_cannapple",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABC",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "ganjacraft:dried_sativa_bud"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "ganjacraft:dried_indica_bud"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_tea",
+    "count": 1
+  }
+}

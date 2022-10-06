@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "SSS",
+    "BAB"
+  ],
+  "key": {
+    "#": {
+      "item": "ganjacraft:cannabutter"
+    },
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "S": {
+      "item": "ganjacraft:dried_sativa_bud"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:sativa_gummy",
+    "count": 4
+  }
+}
