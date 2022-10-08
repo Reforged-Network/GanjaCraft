@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "ganjacraft:blocks/hemp_planks",
-    "top": "ganjacraft:blocks/hemp_planks",
-    "side": "ganjacraft:blocks/hemp_planks"
-  }
-}

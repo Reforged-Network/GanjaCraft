@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ganjacraft:blocks/hemp_planks",
-    "particle": "ganjacraft:blocks/hemp_planks"
-  }
-}

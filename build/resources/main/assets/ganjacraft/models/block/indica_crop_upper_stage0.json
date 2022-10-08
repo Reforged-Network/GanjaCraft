@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "ganjacraft:block/indica_crop_upper_stage0"
-  }
-}

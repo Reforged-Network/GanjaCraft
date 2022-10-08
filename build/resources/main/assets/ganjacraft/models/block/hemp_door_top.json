@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top",
-  "textures": {
-    "top": "ganjacraft:block/hemp_door_top",
-    "bottom": "ganjacraft:block/hemp_door_bottom"
-  }
-}
