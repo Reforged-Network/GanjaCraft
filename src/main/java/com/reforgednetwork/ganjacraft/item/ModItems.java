@@ -2,10 +2,7 @@ package com.reforgednetwork.ganjacraft.item;
 
 import com.reforgednetwork.ganjacraft.GanjaCraft;
 import com.reforgednetwork.ganjacraft.block.ModBlocks;
-import com.reforgednetwork.ganjacraft.item.custom.IndicaPipeUse;
-import com.reforgednetwork.ganjacraft.item.custom.IndicaSpliffUse;
-import com.reforgednetwork.ganjacraft.item.custom.SativaPipeUse;
-import com.reforgednetwork.ganjacraft.item.custom.SativaSpliffUse;
+import com.reforgednetwork.ganjacraft.item.custom.*;
 import com.reforgednetwork.ganjacraft.util.ModSoundEvents;
 import net.minecraft.block.Blocks;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -35,13 +32,13 @@ public class ModItems {
 	public static final RegistryObject<Item> INDICA_BUD = ITEMS.register("indica_bud", () -> new IndicaSpliffUse(new Item.Properties().group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> DRIED_INDICA_BUD = ITEMS.register("dried_indica_bud", () -> new IndicaSpliffUse(new Item.Properties().group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> INDICA_SPLIFF = ITEMS.register("indica_spliff", () -> new IndicaSpliffUse(new Item.Properties().maxStackSize(16).group(ModItemGroup.GANJACRAFT_GROUP)));
-	public static final RegistryObject<Item> INDICA_BONG = ITEMS.register("indica_bong", () -> new Item(new Item.Properties().maxStackSize(1).group(ModItemGroup.GANJACRAFT_GROUP)));
+	public static final RegistryObject<Item> INDICA_BONG = ITEMS.register("indica_bong", () -> new IndicaBongUse(new Item.Properties().maxStackSize(1).group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> INDICA_PIPE = ITEMS.register("indica_pipe", () -> new IndicaPipeUse(new Item.Properties().maxStackSize(1).group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> INDICAGUMMY = ITEMS.register("indica_gummy", () -> new SimpleFoiledItem(new Item.Properties().maxStackSize(4).food(new Food.Builder().hunger(5).saturation(0.1f).effect(() -> new EffectInstance(Effects.REGENERATION, 400, 1), 1.0F).effect(new EffectInstance(Effects.SPEED, 1000, 0), 1.0F).effect(new EffectInstance(Effects.JUMP_BOOST, 2400, 0), 1.0F).setAlwaysEdible().build()).group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> SATIVA_BUD = ITEMS.register("sativa_bud", () -> new Item(new Item.Properties().group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> DRIED_SATIVA_BUD = ITEMS.register("dried_sativa_bud", () -> new Item(new Item.Properties().group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> SATIVA_SPLIFF = ITEMS.register("sativa_spliff", () -> new SativaSpliffUse(new Item.Properties().maxStackSize(16).group(ModItemGroup.GANJACRAFT_GROUP)));
-	public static final RegistryObject<Item> SATIVA_BONG = ITEMS.register("sativa_bong", () -> new Item(new Item.Properties().maxStackSize(1).group(ModItemGroup.GANJACRAFT_GROUP)));
+	public static final RegistryObject<Item> SATIVA_BONG = ITEMS.register("sativa_bong", () -> new SativaBongUse(new Item.Properties().maxStackSize(1).group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> SATIVA_PIPE = ITEMS.register("sativa_pipe", () -> new SativaPipeUse(new Item.Properties().maxStackSize(1).group(ModItemGroup.GANJACRAFT_GROUP)));
 	public static final RegistryObject<Item> SATIVAGUMMY = ITEMS.register("sativa_gummy", () -> new SimpleFoiledItem(new Item.Properties().maxStackSize(4).food(new Food.Builder().hunger(5).saturation(0.1f).effect(() -> new EffectInstance(Effects.REGENERATION, 400, 1), 1.0F).effect(new EffectInstance(Effects.SPEED, 1000, 0), 1.0F).effect(new EffectInstance(Effects.HASTE, 2400, 0), 1.0F).setAlwaysEdible().build()).group(ModItemGroup.GANJACRAFT_GROUP)));
 	//public static final RegistryObject<Item> HEMPMILKBUCKET = ITEMS.register("hempmilk_bucket", () -> new Item(new Item.Properties().maxStackSize(1).group(ModItemGroup.GANJACRAFT_GROUP)));

@@ -17,50 +17,9 @@ import net.minecraft.world.World;
 
 import javax.annotation.Nonnull;
 
-public class SativaPipeUse extends Item {
-	public SativaPipeUse(Properties properties) {
+public class SativaPipeUse extends SpliffUse {
+
+	public SativaPipeUse(Item.Properties properties) {
 		super(properties);
 	}
-
-	public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
-		ItemStack itemstack = playerIn.getHeldItem(handIn);
-
-
-		if (playerIn.isActualySwimming()) {
-			return ActionResult.resultFail(itemstack);
-		} else {
-			playerIn.setActiveHand(handIn);
-			return ActionResult.resultConsume(itemstack);
-		}
-	}
-
-	@Nonnull
-	@Override
-	public ItemStack onItemUseFinish(ItemStack stack, World worldIn, LivingEntity entityLiving) {
-
-		if (!worldIn.isRemote && entityLiving.getHeldItemOffhand().getItem() == ModItems.LIGHTER.get()) {
-			entityLiving.addPotionEffect(new EffectInstance(Effects.SPEED, 800, 0));
-			entityLiving.addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, 200, 0));
-			entityLiving.addPotionEffect(new EffectInstance(Effects.WEAKNESS, 600, 0));
-		}
-
-		if (entityLiving instanceof ServerPlayerEntity) {
-			ServerPlayerEntity serverplayerentity = (ServerPlayerEntity)entityLiving;
-			CriteriaTriggers.CONSUME_ITEM.trigger(serverplayerentity, stack);
-			serverplayerentity.getCooldownTracker().setCooldown(this, 200); }
-
-		if (entityLiving instanceof PlayerEntity && !((PlayerEntity)entityLiving).abilities.isCreativeMode) {
-			stack.shrink(1); 	}
-		return stack.isEmpty() ? new ItemStack(ModItems.EMPTYPIPE.get()) : stack;
-	}
-
-	public int getUseDuration(ItemStack stack) {
-		return 32;
-	}
-
-	public UseAction getUseAction(ItemStack stack) {
-		return UseAction.BOW;
-	}
-
-
 }
